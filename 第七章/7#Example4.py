@@ -1,6 +1,6 @@
 # 7#Example4.py  按空格分隔读取文件
-txt = open('ff.txt',encoding='gbk').read()
+txt = open('ff.txt').read()
 ls = txt.split()
-txt.close()
+# f.close()
 
 print(ls)
